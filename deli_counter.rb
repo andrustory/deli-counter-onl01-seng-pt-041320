@@ -16,6 +16,3 @@ def take_a_number(deli, person)
  puts "Welcome, #{person}. You are number #{deli.index(person)} in line."
 end
 
-def now_serving
-end
-
