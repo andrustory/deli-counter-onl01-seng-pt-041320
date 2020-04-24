@@ -7,6 +7,6 @@ def line (deli)
     deli.each_with_index(1)do|customer, index|
     string << "#{index+1}. #{customer}"
   end
-  string
+  puts string
 end
 end
