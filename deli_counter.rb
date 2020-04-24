@@ -22,7 +22,7 @@ if deli.length == 0
   puts "There is nobody waiting to be served!"
   
 else 
-  deli.each do|person|
+  deli.each do|person|person.shift
   puts "Currently serving #{person}."
 end
 end
