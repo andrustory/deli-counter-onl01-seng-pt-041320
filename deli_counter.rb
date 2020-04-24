@@ -23,7 +23,7 @@ if deli.length == 0
   
 else 
   deli.each do|person|person
-  puts "Currently serving #{person.shift}."
+  puts "Currently serving #{person}."
 end
 end
 end
