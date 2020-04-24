@@ -12,10 +12,10 @@ end
 end
 
 def take_a_number(deli)
+  string = []
   if deli.length == 0 
-    deli 
-    
-    
+    deli.each {|person, i|string << #{index}. #{person}}
+  end
 end
 
 # it 'works with different people in line' do
