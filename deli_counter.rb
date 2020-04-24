@@ -13,6 +13,6 @@ end
 
 def take_a_number(deli, person)
  deli << person
- puts "Welcome, #{person}. You are number #{deli.each.with_index(1)|person|} in line."
+ puts "Welcome, #{person}. You are number #{deli.length} in line."
 end
 
