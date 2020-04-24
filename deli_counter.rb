@@ -23,6 +23,7 @@ if deli.length == 0
   
 else 
   puts "Currently serving #{deli[0]."
+  deli.shift
 end
 end
 end
