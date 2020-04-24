@@ -14,4 +14,5 @@ end
 def take_a_number(deli, person)
  deli << person
  puts "Welcome, #{person}. You are number 1 in line."
+end
 
