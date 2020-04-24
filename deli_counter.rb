@@ -22,7 +22,6 @@ if deli.length == 0
   puts "There is nobody waiting to be served!"
   
 else 
-  deli.each do|person|person
   puts "Currently serving #{deli[0]."
 end
 end
