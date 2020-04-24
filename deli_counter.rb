@@ -12,7 +12,7 @@ end
 end
 
 def take_a_number(deli, person)
- 
+ deli << person
 end
 
 # it 'works with different people in line' do
