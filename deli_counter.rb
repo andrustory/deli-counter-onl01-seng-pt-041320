@@ -13,6 +13,8 @@ end
 
 def take_a_number(deli)
   if deli.length == 0 
+    deli 
+    
     
 end
 
