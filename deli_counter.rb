@@ -11,7 +11,7 @@ def line (deli)
 end
 end
 
-def take_a_number(deli)
+def take_a_number(deli, person)
   string = []
   if deli.length == 0 
     deli.each {|person, i|string << #{index}. #{person}}
