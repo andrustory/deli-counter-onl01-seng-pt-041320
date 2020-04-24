@@ -14,8 +14,8 @@ end
 def take_a_number(deli, person)
   string = []
   if deli.length == 0 
-    deli.each do|person, i|
-    string << #{index}. #{person}
+    deli.each.with_index(1)do|person, index|
+    string << " #{index}. #{person}"
   end
   puts string
 end
