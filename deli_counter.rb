@@ -17,7 +17,8 @@ def take_a_number(deli, person)
     deli.each do|person, i|
     string << #{index}. #{person}
   end
-  string
+  puts string
+end
 end
 
 # it 'works with different people in line' do
